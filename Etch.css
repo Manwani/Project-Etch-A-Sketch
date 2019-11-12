@@ -1,0 +1,21 @@
+#sketchBox{
+    display: grid;
+    margin: auto;
+    margin-top: 10px;
+    outline: 2px solid rgb(241, 165, 183);
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    height: 600px;
+    width: 960px;
+    background-color: white;
+
+}
+
+#buttons{
+    display: grid;    
+    margin: auto;
+    height: 50px;
+    width: 960px;
+    grid-template-columns: repeat(5, 1fr);
+
+}
