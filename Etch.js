@@ -43,11 +43,11 @@ buttons.appendChild(buttonDefault);
 const sketchBox = document.querySelector('#sketchBox');
 
 
-//loop that creates all the boxes -1px to the width and height for border
+//loop that creates all the boxess
 for(let x = 0; x < 256; x++){
 let box = document.createElement('div');
-box.style.width = '59px';
-box.style.height = '36.5px';
+box.style.width = '60px';
+box.style.height = '37.5px';
 box.style.border = '0.5px solid grey'
 box.style.backgroundColor = 'rgba(0,0,0,0)';
 box.className = 'squares';
