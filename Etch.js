@@ -56,7 +56,7 @@ sketchBox.appendChild(box);
 
 const divs = document.getElementsByClassName('squares');
 
-
+//default draw event applied to all squares
 for(let i = 0; i < divs.length; i++){
     divs[i].addEventListener('mouseover', defaultDraw);
 }
@@ -225,8 +225,8 @@ function createNewGrid(choiceInput){
 
     eraseGrid();
 
-    let gridWidth = sketchBox.offsetWidth / choiceInput - 1;
-    let gridHeight = sketchBox.offsetHeight / choiceInput - 1;
+    let gridWidth = sketchBox.offsetWidth / choiceInput;
+    let gridHeight = sketchBox.offsetHeight / choiceInput;
     let counterLength = choiceInput * choiceInput;
 
     sketchBox.style.gridTemplateColumns = "repeat(" + choiceInput + ", 1fr)";
